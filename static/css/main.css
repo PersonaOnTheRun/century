@@ -29,6 +29,8 @@ structure and rearrange css
   min-height: 100%;
 }
 
+
+
 /* NAVBAR */
 
 /* transparent navbar */
@@ -56,45 +58,45 @@ structure and rearrange css
   background-size: cover;
 }
 
-/* about header parallax image */
+/* about header parallax image background-image:url(../images/parallax_bg_about.jpg); */
 .about-bg{
   background-color:none;
-  background-image:url(../images/parallax_bg_about.jpg);
+  background-image:url(../images2/bg1.jpg);
   min-height: 200px;
 }
 
-/* skills header parallax image */
+/* skills header parallax image ../images/parallax_bg_skills.jpg);*/
 .skills-bg{
   background-color:none;
-  background-image:url(../images/parallax_bg_skills.jpg);
+  background-image:url(../images2/bg2.jpg);
   min-height: 200px;
 }
 
-/* experience header parallax image */
+/* experience header parallax image ../images/parallax_bg_exp.jpg);*/
 .exp-bg {
   background-color:none;
-  background-image:url(../images/parallax_bg_exp.jpg);
+  background-image:url(../images2/bg3.jpg);
   min-height: 200px;
 }
 
-/* portfolio header parallax image */
+/* portfolio header parallax image ../images/parallax_bg_portfolio.jpg);*/
 .portfolio-bg{
   background-color:none;
-  background-image:url(../images/parallax_bg_portfolio.jpg);
+  background-image:url(../images2/bg4.jpg);
   min-height: 200px;
 }
 
-/* contact header parallax image */
+/* contact header parallax image ../images/parallax_bg_contact.jpg);*/
 .contact-bg {
   background-color:none;
-  background-image:url(../images/parallax_bg_contact.jpg);
+  background-image:url(../images2/bg5.jpg);
   min-height: 200px;
 }
 
-/* footer parallax image */
+/* footer parallax image ../images/parallax_bg_footer.jpg);*/
 .footer-bg {
   background-color:none;
-  background-image:url(../images/parallax_bg_footer.jpg);
+  background-image:url(../images2/bg6.jpg);
   min-height: 200px;
 }
 
@@ -146,6 +148,12 @@ footer{
   text-shadow: 2px 2px 4px #000000;
   color: #000;
 
+}
+
+.fourohfour {
+  position: absolute;
+  top: 0;
+  z-index: 5;
 }
 
 

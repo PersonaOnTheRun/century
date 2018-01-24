@@ -10,7 +10,7 @@ var typed = new Typed("#terminal-short-info", {
    * @property {array} strings strings to be typed
    * @property {string} stringsElement ID of element containing string children
    */ // Moved from the East to the West. Raised by the noughties.
-  strings: [ '<br>Hello there, my name is Cam. I\'m a Toronto-based Front-End Developer.'],
+  strings: [ '<br>hi, my name is cam. i\'m a creator.'],
   stringsElement: null,
 
   /**
@@ -159,8 +159,10 @@ var typed = new Typed("#my-quote", {
    * @property {array} strings strings to be typed
    * @property {string} stringsElement ID of element containing string children
    */ // Moved from the East to the West. Raised by the noughties.
-  strings: ['<br>Inspiring words #1.', '<br>Inspiring words #2.', '<br>Inspiring words #3.', '<br>Inspiring words #4.',],
+  strings: ['<br>enjoy these inspiring quotes','<br>"If you always do what interests you, at least one person is pleased."', '<br>"It does not matter how slowly you go, so long as you do not stop."', '<br>"Opportunities don\'t happen. You create them."', '<br>"Try not to become a person of success, but rather try to become a person of value."','<br>"Failure is another steppingstone to greatness."',],
   stringsElement: null,
+
+
 
   /**
    * @property {number} typeSpeed type speed in milliseconds
@@ -170,7 +172,7 @@ var typed = new Typed("#my-quote", {
   /**
    * @property {number} startDelay time before typing starts in milliseconds
    */
-  startDelay: 10000,
+  startDelay: 7000,
 
   /**
    * @property {number} backSpeed backspacing speed in milliseconds
