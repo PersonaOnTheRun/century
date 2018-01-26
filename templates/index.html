@@ -6,6 +6,9 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
+  <link rel="stylesheet" href="static/css/cryptocoins.css">
+  <!--<link rel="stylesheet" href="static/css/cryptocoins-colors.css">-->
+
   <link rel="icon" type="image/png" href="static/images2/favicon.png" />
 
   <!--bootstrap-->
@@ -115,25 +118,25 @@
         <article class="col-md-3">
           <img class="mx-auto skills-sec" src="static/images2/BTC.svg">
           <h3 class="text-center">Bitcoin</h3>
-          <p>17x7XEjZMEXuywFCgaL5gsPpHjtetWaBYq </p>
+          <p>Thicc </p>
         </article>
 
         <article class="col-md-3">
           <img class="mx-auto skills-sec" src="static/images2/ETH-alt.svg">
           <h3 class="text-center">Ethereum</h3>
-          <p>0x07aBaAfFe732eFCA99d22495F64a1c185C9BD090</p>
+          <p>Boi</p>
         </article>
 
         <article class="col-md-3">
           <img class="mx-auto skills-sec" src="static/images2/ADA-alt.svg">
           <h3 class="text-center">Cardano</h3>
-          <p>DdzFFzCqrht8So9JS8DfefPWCDK35SJPeGPDpQkBinBaSEFGYsfL1ub8NfjqC1bUjQo4cwsnJ7e32GaqN9dWKvvKUm5q5wKueuGHuSbK</p>
+          <p>Club</p>
         </article>
 
         <article class="col-md-3">
           <img class="mx-auto skills-sec" src="static/images2/XMR.svg">
           <h3 class="text-center">Monero</h3>
-          <p>48R1tZq1yV18eVCHYc7Zd9hhvHqJ4wxWdidQN7o199jMWtpEva8dPtDa24aJWNvYayGUtT2g2mo7AHJwuPtqumhi1XtuDXp</p>
+          <p>!</p>
         </article>
       </div>
     </section>
@@ -286,7 +289,10 @@
     <div class="container-fluid text-center">
       <div class="row">
         <footer class="col-md-12">
-
+          <i class="cc BTC" onclick="alert('17x7XEjZMEXuywFCgaL5gsPpHjtetWaBYq');" title="BTC"></i>
+          <i class="cc ETH-alt" onclick="alert('0x07aBaAfFe732eFCA99d22495F64a1c185C9BD090');" title="ETH"></i>
+          <i class="cc LTC-alt" onclick="alert('LhWHWaKeQuTEt6Lu19WvKh8aA7bB5jjqQF');" title="LTC"></i>
+          <i class="cc DASH-alt" onclick="alert('Xxu2hnaNvgZqBLa41jQjoRh8Q6vPX82rbk');" title="DASH"></i><br>
           <span><a href="https://github.com/personaontherun">GitHub</a><br>
 
         </footer>
@@ -295,6 +301,24 @@
   </div>
   <!--./footer-->
 </div>
+
+<style>
+   body {
+      background: #fafafa;
+      font-family: "Montserrat", "Lato", "Helvetica", "Arial", sans-serif;
+   }
+   #demo {
+      width: 100%; max-width: 60rem;
+      margin: 3rem auto;
+   }
+   .icons {
+      margin: 3rem 0;
+   }
+   i.cc { font-size: 4rem; display: inline-block; margin: 0 1.3rem 1.3rem 0; transition: 0.1s ease all; }
+   i.cc:hover { color: #0060BD; transform: rotate(-20deg); transform-origin: 0.49em 0.7em; }
+</style>
+
+
 <!-- ./ content -->
 <!--./ terminal-->
 <!--jquery-->
@@ -306,7 +330,6 @@
 
 <script src="static/js/particles.js"></script>
 <script src="static/js/main.js"></script>
-
 
 <script src="static/js/typed.min.js"></script>
 <script src="static/js/terminal.js"></script>
