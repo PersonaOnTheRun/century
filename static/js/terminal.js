@@ -10,7 +10,7 @@ var typed = new Typed("#terminal-short-info", {
    * @property {array} strings strings to be typed
    * @property {string} stringsElement ID of element containing string children
    */ // Moved from the East to the West. Raised by the noughties.
-  strings: [ '<br>hi, i\'m cam. i\'m a creator.'],
+  strings: [ '<br>hi, i\'m X. i\'m a creator.'],
   stringsElement: null,
 
   /**
