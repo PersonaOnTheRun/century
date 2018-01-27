@@ -179,14 +179,14 @@ footer{
 
 .portfolio-sec{
   padding-top: 50px;
-  width  : 200px;
+  height : 200px;
   display: block;
 }
 
-img.portfolio-sec:hover {
+/* img.portfolio-sec:hover {
   opacity: 0.5;
   filter: brightness(50%);
-}
+}*/
 /* ./ PORTFOLIO */
 
 /* TERMINAL */
