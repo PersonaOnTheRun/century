@@ -2,7 +2,3 @@
 particlesJS.load('particles-js', 'static/assets/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
-
-function popup() {
-    alert("I am an alert box!");
-}

@@ -113,7 +113,7 @@ structure and rearrange css
 
 /* resize svg images for skill section */
 .skills-sec {
-  width  : 100px;
+  height  : 100px;
   display: block;
 }
 
@@ -135,7 +135,7 @@ footer{
 }
 .msc-text{
 
-  padding-top: 10px;
+  padding-top: 20px;
 
 }
 
@@ -228,11 +228,11 @@ span.cursor:after {
 
 /* global link color testing */
 a {
-  color:white;
+  color:black;
 }
 
 a:hover{
-  color:black;
+  color:blue;
 }
 
 
@@ -244,23 +244,20 @@ a:hover{
 }
 /* ./soundcloud pro player */
 
-#bug-report{
-  position: absolute;
-  top: 5;
-  right: 1;
-  width: 10%;
-}
-
-#bug-report img{
-  position: absolute;
-  right: 1;
-  width: 24px;
-}
-
-#bug-report img:hover{
-  opacity: 0.6;
-}
-
 #my-bio{
   padding: 40px;
 }
+
+body {
+   background: #fafafa;
+   font-family: "Montserrat", "Lato", "Helvetica", "Arial", sans-serif;
+}
+#demo {
+   width: 100%; max-width: 60rem;
+   margin: 3rem auto;
+}
+.icons {
+   margin: 3rem 0;
+}
+i.cc { font-size: 4rem; display: inline-block; margin: 0 1.3rem 1.3rem 0; transition: 0.1s ease all; }
+i.cc:hover { color: #0060BD; transform: rotate(-20deg); transform-origin: 0.49em 0.7em; }
